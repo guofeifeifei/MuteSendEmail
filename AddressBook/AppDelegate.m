@@ -17,9 +17,30 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+        NSSetUncaughtExceptionHandler(&UncaughtExceptionHandler);
+
     return YES;
 }
-
+void UncaughtExceptionHandler(NSException *exception) {
+    /**
+     *  获取异常崩溃信息
+     */
+    NSArray *callStack = [exception callStackSymbols];
+    NSString *reason = [exception reason];
+    NSString *name = [exception name];
+    NSString *content = [NSString stringWithFormat:@"========异常错误报告========\nname:%@\nreason:\n%@\ncallStackSymbols:\n%@",name,reason,[callStack componentsJoinedByString:@"\n"]];
+    
+    /**
+     *  把异常崩溃信息发送至开发者邮件
+     */
+    NSMutableString *mailUrl = [NSMutableString string];
+    [mailUrl appendString:@"2545706530@qq.com"];
+    [mailUrl appendString:@"?subject=程序异常崩溃，请配合发送异常报告，谢谢合作！"];
+    [mailUrl appendFormat:@"&body=%@", content];
+    // 打开地址
+    NSString *mailPath = [mailUrl stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:mailPath]];
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
@@ -35,6 +56,7 @@
 
 - (void)applicationWillEnterForeground:(UIApplication *)application {
     // Called as part of the transition from the background to the active state; here you can undo many of the changes made on entering the background.
+    NSLog(@"applicationWillEnterForeground");
 }
 
 

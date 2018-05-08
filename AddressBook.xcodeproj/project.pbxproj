@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D1011CD1FCC1F18006E34A4 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D1011CC1FCC19E6006E34A4 /* CoreTelephony.framework */; };
 		4D8973B91FCB92140056EAB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8973B81FCB92140056EAB8 /* AppDelegate.m */; };
 		4D8973BC1FCB92140056EAB8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8973BB1FCB92140056EAB8 /* ViewController.m */; };
 		4D8973BF1FCB92140056EAB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D8973BD1FCB92140056EAB8 /* Main.storyboard */; };
@@ -15,6 +16,16 @@
 		4D8973C71FCB92140056EAB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8973C61FCB92140056EAB8 /* main.m */; };
 		4D8973D11FCB92140056EAB8 /* AddressBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8973D01FCB92140056EAB8 /* AddressBookTests.m */; };
 		4D8973DC1FCB92140056EAB8 /* AddressBookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8973DB1FCB92140056EAB8 /* AddressBookUITests.m */; };
+		4D8973F31FCB934F0056EAB8 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 4D8973EB1FCB934F0056EAB8 /* LICENSE */; };
+		4D8973F41FCB934F0056EAB8 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8973ED1FCB934F0056EAB8 /* MBProgressHUD.m */; };
+		4D8973F51FCB934F0056EAB8 /* README.mdown in Resources */ = {isa = PBXBuildFile; fileRef = 4D8973EE1FCB934F0056EAB8 /* README.mdown */; };
+		4D8973F61FCB934F0056EAB8 /* MBProgressHUD+NHAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8973F11FCB934F0056EAB8 /* MBProgressHUD+NHAdd.m */; };
+		4D8973FC1FCB9DF70056EAB8 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8973FB1FCB9DE50056EAB8 /* CFNetwork.framework */; };
+		4D8974081FCB9E390056EAB8 /* Base64Transcoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8973FF1FCB9E390056EAB8 /* Base64Transcoder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4D8974091FCB9E390056EAB8 /* HSK_CFUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8974011FCB9E390056EAB8 /* HSK_CFUtilities.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4D89740A1FCB9E390056EAB8 /* NSData+Base64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8974031FCB9E390056EAB8 /* NSData+Base64Additions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4D89740B1FCB9E390056EAB8 /* NSStream+SKPSMTPExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8974051FCB9E390056EAB8 /* NSStream+SKPSMTPExtensions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4D89740C1FCB9E390056EAB8 /* SKPSMTPMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8974071FCB9E390056EAB8 /* SKPSMTPMessage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D1011CC1FCC19E6006E34A4 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		4D8973B41FCB92140056EAB8 /* AddressBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddressBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D8973B71FCB92140056EAB8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4D8973B81FCB92140056EAB8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +63,24 @@
 		4D8973D71FCB92140056EAB8 /* AddressBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddressBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D8973DB1FCB92140056EAB8 /* AddressBookUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressBookUITests.m; sourceTree = "<group>"; };
 		4D8973DD1FCB92140056EAB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D8973EB1FCB934F0056EAB8 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		4D8973EC1FCB934F0056EAB8 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		4D8973ED1FCB934F0056EAB8 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		4D8973EE1FCB934F0056EAB8 /* README.mdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.mdown; sourceTree = "<group>"; };
+		4D8973F01FCB934F0056EAB8 /* MBProgressHUD+NHAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+NHAdd.h"; sourceTree = "<group>"; };
+		4D8973F11FCB934F0056EAB8 /* MBProgressHUD+NHAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+NHAdd.m"; sourceTree = "<group>"; };
+		4D8973F21FCB934F0056EAB8 /* MBProgressHUD_NHExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD_NHExtend.h; sourceTree = "<group>"; };
+		4D8973FB1FCB9DE50056EAB8 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		4D8973FE1FCB9E390056EAB8 /* Base64Transcoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64Transcoder.h; sourceTree = "<group>"; };
+		4D8973FF1FCB9E390056EAB8 /* Base64Transcoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64Transcoder.m; sourceTree = "<group>"; };
+		4D8974001FCB9E390056EAB8 /* HSK_CFUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSK_CFUtilities.h; sourceTree = "<group>"; };
+		4D8974011FCB9E390056EAB8 /* HSK_CFUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSK_CFUtilities.m; sourceTree = "<group>"; };
+		4D8974021FCB9E390056EAB8 /* NSData+Base64Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64Additions.h"; sourceTree = "<group>"; };
+		4D8974031FCB9E390056EAB8 /* NSData+Base64Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64Additions.m"; sourceTree = "<group>"; };
+		4D8974041FCB9E390056EAB8 /* NSStream+SKPSMTPExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSStream+SKPSMTPExtensions.h"; sourceTree = "<group>"; };
+		4D8974051FCB9E390056EAB8 /* NSStream+SKPSMTPExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSStream+SKPSMTPExtensions.m"; sourceTree = "<group>"; };
+		4D8974061FCB9E390056EAB8 /* SKPSMTPMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKPSMTPMessage.h; sourceTree = "<group>"; };
+		4D8974071FCB9E390056EAB8 /* SKPSMTPMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKPSMTPMessage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +88,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D1011CD1FCC1F18006E34A4 /* CoreTelephony.framework in Frameworks */,
+				4D8973FC1FCB9DF70056EAB8 /* CFNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +117,7 @@
 				4D8973CF1FCB92140056EAB8 /* AddressBookTests */,
 				4D8973DA1FCB92140056EAB8 /* AddressBookUITests */,
 				4D8973B51FCB92140056EAB8 /* Products */,
+				4D8973FA1FCB9DE50056EAB8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +138,7 @@
 				4D8973B81FCB92140056EAB8 /* AppDelegate.m */,
 				4D8973BA1FCB92140056EAB8 /* ViewController.h */,
 				4D8973BB1FCB92140056EAB8 /* ViewController.m */,
+				4D8973E91FCB934F0056EAB8 /* Tools */,
 				4D8973BD1FCB92140056EAB8 /* Main.storyboard */,
 				4D8973C01FCB92140056EAB8 /* Assets.xcassets */,
 				4D8973C21FCB92140056EAB8 /* LaunchScreen.storyboard */,
@@ -130,6 +164,63 @@
 				4D8973DD1FCB92140056EAB8 /* Info.plist */,
 			);
 			path = AddressBookUITests;
+			sourceTree = "<group>";
+		};
+		4D8973E91FCB934F0056EAB8 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				4D8973FD1FCB9E390056EAB8 /* SMTPLibrary */,
+				4D8973EA1FCB934F0056EAB8 /* MBProgressHUD */,
+				4D8973EF1FCB934F0056EAB8 /* NHHUDExtend */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		4D8973EA1FCB934F0056EAB8 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				4D8973EB1FCB934F0056EAB8 /* LICENSE */,
+				4D8973EC1FCB934F0056EAB8 /* MBProgressHUD.h */,
+				4D8973ED1FCB934F0056EAB8 /* MBProgressHUD.m */,
+				4D8973EE1FCB934F0056EAB8 /* README.mdown */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		4D8973EF1FCB934F0056EAB8 /* NHHUDExtend */ = {
+			isa = PBXGroup;
+			children = (
+				4D8973F01FCB934F0056EAB8 /* MBProgressHUD+NHAdd.h */,
+				4D8973F11FCB934F0056EAB8 /* MBProgressHUD+NHAdd.m */,
+				4D8973F21FCB934F0056EAB8 /* MBProgressHUD_NHExtend.h */,
+			);
+			path = NHHUDExtend;
+			sourceTree = "<group>";
+		};
+		4D8973FA1FCB9DE50056EAB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D1011CC1FCC19E6006E34A4 /* CoreTelephony.framework */,
+				4D8973FB1FCB9DE50056EAB8 /* CFNetwork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D8973FD1FCB9E390056EAB8 /* SMTPLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				4D8973FE1FCB9E390056EAB8 /* Base64Transcoder.h */,
+				4D8973FF1FCB9E390056EAB8 /* Base64Transcoder.m */,
+				4D8974001FCB9E390056EAB8 /* HSK_CFUtilities.h */,
+				4D8974011FCB9E390056EAB8 /* HSK_CFUtilities.m */,
+				4D8974021FCB9E390056EAB8 /* NSData+Base64Additions.h */,
+				4D8974031FCB9E390056EAB8 /* NSData+Base64Additions.m */,
+				4D8974041FCB9E390056EAB8 /* NSStream+SKPSMTPExtensions.h */,
+				4D8974051FCB9E390056EAB8 /* NSStream+SKPSMTPExtensions.m */,
+				4D8974061FCB9E390056EAB8 /* SKPSMTPMessage.h */,
+				4D8974071FCB9E390056EAB8 /* SKPSMTPMessage.m */,
+			);
+			path = SMTPLibrary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,7 +331,9 @@
 			files = (
 				4D8973C41FCB92140056EAB8 /* LaunchScreen.storyboard in Resources */,
 				4D8973C11FCB92140056EAB8 /* Assets.xcassets in Resources */,
+				4D8973F31FCB934F0056EAB8 /* LICENSE in Resources */,
 				4D8973BF1FCB92140056EAB8 /* Main.storyboard in Resources */,
+				4D8973F51FCB934F0056EAB8 /* README.mdown in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,7 +360,14 @@
 			files = (
 				4D8973BC1FCB92140056EAB8 /* ViewController.m in Sources */,
 				4D8973C71FCB92140056EAB8 /* main.m in Sources */,
+				4D8973F61FCB934F0056EAB8 /* MBProgressHUD+NHAdd.m in Sources */,
 				4D8973B91FCB92140056EAB8 /* AppDelegate.m in Sources */,
+				4D8973F41FCB934F0056EAB8 /* MBProgressHUD.m in Sources */,
+				4D89740A1FCB9E390056EAB8 /* NSData+Base64Additions.m in Sources */,
+				4D8974091FCB9E390056EAB8 /* HSK_CFUtilities.m in Sources */,
+				4D8974081FCB9E390056EAB8 /* Base64Transcoder.m in Sources */,
+				4D89740C1FCB9E390056EAB8 /* SKPSMTPMessage.m in Sources */,
+				4D89740B1FCB9E390056EAB8 /* NSStream+SKPSMTPExtensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,11 +531,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4SK2C9EK6T;
 				INFOPLIST_FILE = AddressBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = gfg.AddressBook;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oneapp.appios2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -444,11 +546,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4SK2C9EK6T;
 				INFOPLIST_FILE = AddressBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = gfg.AddressBook;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oneapp.appios2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
